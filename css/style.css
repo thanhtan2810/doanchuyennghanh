@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: Mansalva;
+    font-size: 20px;
+    color: #5d5c61;
+    background-color: white;
+    font-weight: 100px;
+    font-size: 25px;
+   /*phép chữ ghép (ff, fi, fl, v.v.) trong văn bản nhỏ hơn 20px đối với một số phông chữ (ví dụ: Calibri , Candara , Constantia và Corbel của Microsoft hoặc họ phông chữ DejaVu ).*/   
+}
+/* head */
+.logo{
+    width: 269px;
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 84px
+}
+a{
+    text-decoration: none;
+    
+}
+.main-nav{
+    list-style:none;
+    display: flex;
+    float: right;
+    position: relative;
+    top: 28px;
+    left: -70px;
+    
+    
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+header{
+    background-image: url(../img/background4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+}
+.main-nav li{
+    margin-left:26px;
+    color: #b2acca;
+}
+.main-nav.items{
+    position: absolute;
+    top: -41px;
+    right: 21px;
+}      
+.content {
+    position: absolute;
+    bottom: 332px;
+    left: 210px;
+  }
+  #text{
+    font-size: 79px;
+    position: relative;
+    top: 173px;
+  }
+  #text1{
+    font-size: 79px;
+    position: relative;
+    top:84px;
+  }
+.button {
+    position: relative;
+    background-color:	#B0C4DE;
+    border-radius: 50%;
+    padding:30px;
+    border: none;  
+}
+#items{
+    -moz-transition: height 2s;
+    transition: margin-lefts 5s;
+    padding: 16px;
+    position: relative;
+    top: -14px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } 
+
